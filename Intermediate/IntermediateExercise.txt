@@ -1,5 +1,6 @@
 1. Download Demo materials from https://github.com/shpolina/CodeLouisville
 2. Open IntermediateDemo project in Intermediate folder
+3. IntermediateDemoExerciseSolution folder contains the same project with exersize solution
 
 Part 1
 3. Add Perimeter() method declaration to IShape interface
@@ -20,4 +21,5 @@ Reference:
 	To calculate Rectangle Perimeter use: 2*Heigth + 2*Widgth
 	To calculate Circle Area use: 3.14*Radius ^ 2
 	To calculate Circle Perimeter use: 2*3.14 * Radius
-	C# has a method to calcualte a number raise to a power: Math.Pow(double number, double power), hence to calculate Radius^2 use Math.Pow(Radius, 2)
+	.Net has a method to calcualte a number raise to a power: Math.Pow(double number, double power), hence to calculate Radius^2 use Math.Pow(Radius, 2)
+	3.14 is a mathematical constant called Pi. You can ether type 3.14 manually or use Math.PI provided by .Net.
