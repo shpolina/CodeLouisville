@@ -10,7 +10,7 @@ namespace IntermediateDemo
             Widgth = widgth;
         }
 
-        public int Area()
+        public double Area()
         {
             return Height * Widgth;
         }

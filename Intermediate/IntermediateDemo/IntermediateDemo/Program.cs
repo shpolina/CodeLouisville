@@ -6,9 +6,9 @@ namespace IntermediateDemo
     {
         static void Main(string[] args)
         {
-            var rectangle = new Rectangle(4, 6);
+            var rectangle = new RectangleExample2(5, 3);
 
-            rectangle.WhoAmI();
+            rectangle.Print();
 
             Console.ReadLine();
         }

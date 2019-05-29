@@ -3,7 +3,7 @@ namespace IntermediateDemo
 {
     interface IShape
     {
-        int Area();
+        double Area();
         void Print();
     }
 }

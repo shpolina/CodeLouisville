@@ -1,0 +1,23 @@
+1. Download Demo materials from https://github.com/shpolina/CodeLouisville
+2. Open IntermediateDemo project in Intermediate folder
+
+Part 1
+3. Add Perimeter() method declaration to IShape interface
+	What type should this method return?
+4. Open RectangleExample2 class. Note that there is now an error in this file - IShape has a red squiggly line under it.
+	Can you answer why?
+5. Implement Perimeter() method in RectangleExample2 class
+6. Compile and run your project. Print results in Main() to make sure everything works as expected
+
+Part 2
+7. Create new class Circle with property Radius of type double
+8. Circle Is-A Shape, so let's make it inherit from IShape
+9. Implement all required methods in Circle (just like we did for RectangleExample2)
+10. Compile and run your project. Print results in Main() to make sure everything works as expected 
+
+Reference:
+	Rectangle is defined by Height and Wight, Circle is defined by Radius.
+	To calculate Rectangle Perimeter use: 2*Heigth + 2*Widgth
+	To calculate Circle Area use: 3.14*Radius ^ 2
+	To calculate Circle Perimeter use: 2*3.14 * Radius
+	C# has a method to calcualte a number raise to a power: Math.Pow(double number, double power), hence to calculate Radius^2 use Math.Pow(Radius, 2)
