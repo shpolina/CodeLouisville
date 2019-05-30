@@ -10,12 +10,12 @@ namespace IntermediateDemo
     {
         public int Area()
         {
-            return Height * Widgth;
+            return Height * Width;
         }
 
         public abstract void Print();
 
         public int Height { get; protected set; }
-        public int Widgth { get; protected set; }
+        public int Width { get; protected set; }
     }
 }

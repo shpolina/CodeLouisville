@@ -4,24 +4,24 @@ namespace IntermediateDemo
 {
     public class RectangleExample2 : IShape
     {
-        public RectangleExample2(int height, int widgth)
+        public RectangleExample2(int height, int width)
         {
             Height = height;
-            Widgth = widgth;
+            Width = width;
         }
 
         public double Area()
         {
-            return Height * Widgth;
+            return Height * Width;
         }
 
         public void Print()
         {
             Console.WriteLine("Height: " + Height);
-            Console.WriteLine("Widgth: " + Widgth);
+            Console.WriteLine("Width: " + Width);
         }
 
         public int Height { get; protected set; }
-        public int Widgth { get; protected set; }
+        public int Width { get; protected set; }
     }
 }

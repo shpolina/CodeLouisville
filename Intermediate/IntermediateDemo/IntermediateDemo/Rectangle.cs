@@ -4,26 +4,26 @@ namespace IntermediateDemo
 {
     public class Rectangle 
     {
-        public Rectangle(int height, int widgth)
+        public Rectangle(int height, int width)
         {
             Height = height;
-            Widgth = widgth;
+            Width = width;
         }
 
         public int Area()
         {
-            return Height * Widgth;
+            return Height * Width;
         }
 
         public void Print()
         {
             Console.WriteLine("Height: " + Height);
-            Console.WriteLine("Widgth: " + Widgth);
+            Console.WriteLine("Width: " + Width);
         }
 
         public override string ToString()
         {
-            return "Height: " + Height + "\nWidgth: " + Widgth;
+            return "Height: " + Height + "\nWidth: " + Width;
         }
 
         public virtual void WhoAmI()
@@ -34,7 +34,7 @@ namespace IntermediateDemo
         public static bool Compare(Rectangle rec1, Rectangle rec2)
         {
             if (rec1.Height == rec2.Height &&
-                rec1.Widgth == rec2.Widgth)
+                rec1.Width == rec2.Width)
             {
                 return true;
             }
@@ -42,6 +42,6 @@ namespace IntermediateDemo
         }
 
         public int Height { get; protected set; }
-        public int Widgth { get; protected set; }
+        public int Width { get; protected set; }
     }
 }

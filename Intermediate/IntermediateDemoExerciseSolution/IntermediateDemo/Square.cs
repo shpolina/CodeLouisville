@@ -13,7 +13,7 @@ namespace IntermediateDemo
         public void Stretch(int factor)
         {
             Height = Height * factor;
-            Widgth = Widgth * factor;
+            Width = Width * factor;
         }
 
         public override void WhoAmI()
