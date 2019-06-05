@@ -1,0 +1,17 @@
+1. Download Demo materials from https://github.com/shpolina/CodeLouisville
+2. Open DataIO project in DataIO folder
+3. DataIO_Solution folder contains the same project with exersize solution
+
+Part 1
+3. Create Squares.csv file (similar to Rectangles.csv) with data for multiple squares. Data includes Name and side. Bonus: add date column to the data
+4. Add the file to project 
+	Don't forget to update properties to "Copy If Newer"
+5. Read squares data from file and print Area for each square.
+6. Using StreamWriter overwrite the file with new squares data:
+	Your resulting file should contain two squares: "CircleNew1, 6.4" and "CircleNew2, 2.5"
+	
+	
+Part 2
+6. Create Squares.json file - same data as in Squares.csv but in json format
+7. Use .Net Json Serializer (JsonConvert class) to read squares and print their areas
+6. Use .Net Json Serializer to write squares and print their areas
