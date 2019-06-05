@@ -1,0 +1,17 @@
+[
+{"name" : "Rectangle1",
+ "heigth" : 4
+ "widgth" : 6 },
+{"name" : "Rectangle2",
+ "heigth" : 3.4
+ "widgth" : 2.8 },
+ {"name" : "Rectangle3",
+ "heigth" : 8.2
+ "widgth" : 5.5 },
+ {"name" : "Rectangle4",
+ "heigth" : 5.8
+ "widgth" : 7 },
+ {"name" : "Rectangle5",
+ "heigth" : 1.2
+ "widgth" : 3.4 }
+ ]
