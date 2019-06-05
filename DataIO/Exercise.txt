@@ -7,11 +7,10 @@ Part 1
 4. Add the file to project 
 	Don't forget to update properties to "Copy If Newer"
 5. Read squares data from file and print Area for each square.
-6. Using StreamWriter overwrite the file with new squares data:
-	Your resulting file should contain two squares: "CircleNew1, 6.4" and "CircleNew2, 2.5"
-	
+6. Using StreamWriter append new square data to the file:
+	Your resulting file should contain all old squares and one square: "SquareNew, 6.4" 
 	
 Part 2
 6. Create Squares.json file - same data as in Squares.csv but in json format
-7. Use .Net Json Serializer (JsonConvert class) to read squares and print their areas
-6. Use .Net Json Serializer to write squares and print their areas
+7. Use .Net Json Serializer to read squares and print their areas
+6. Use .Net Json Serializer to write the squares you read in #7 into a new json file called SqauresNew.json
