@@ -73,10 +73,18 @@ namespace DataIO
 
         static void WriteToFile()
         {
-            using (var writer = new StreamWriter(file.FullName, true))
+            string currentDirectory = Directory.GetCurrentDirectory();
+            DirectoryInfo directory = new DirectoryInfo(currentDirectory);
+            var fileName = Path.Combine(directory.FullName, "Rectangles.csv");
+            var file = new FileInfo(fileName);
+
+            if (file.Exists)
             {
-                var line = "Rectangle6,9.5,3";
-                writer.WriteLine(line);
+                using (var writer = new StreamWriter(file.FullName, true))
+                {
+                    var line = "Rectangle6,9.5,3";
+                    writer.WriteLine(line);
+                }
             }
 
         }
